@@ -2,8 +2,47 @@ body {
     background: #1E1E1E;
     color: #fff;
     font-family: 'Love Ya Like A Sister', 'Space Mono', sans-serif;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.main-pic {
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.main-logo {
+    width: 200px;
+    height: auto;
+}
+
+#hamburger-button {
+    padding-inline: 85px; /* try out flex-shrink for mobile */
 }
 
 .cv-text {
-    display: block;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.75;
+    flex-direction: column;
+    margin: 0 400px;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 15px;
 }
