@@ -1,5 +1,9 @@
 body {
     background: #1E1E1E;
     color: #fff;
-    margin: 100px;
+    font-family: 'Love Ya Like A Sister', 'Space Mono', sans-serif;
+}
+
+.cv-text {
+    display: block;
 }
