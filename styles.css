@@ -2,6 +2,7 @@ body {
     background: #1E1E1E;
     color: #fff;
     font-family: 'Love Ya Like A Sister', 'Space Mono', sans-serif;
+    margin-top: 25px;
 }
 
 
@@ -11,13 +12,13 @@ body {
 header {
     width: 80%;
     height: 70px;
-    background: #098AEB;
-    opacity: 90%;
+    background: #1364A1;
+    opacity: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 40px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
     margin: 0 auto;
 }
 
@@ -63,16 +64,52 @@ nav ul li a:active {
 }
 
 .hamburger:hover {
-    background: #ff9a00;
-
+    background: #1e1e1e;
+    border-radius: 10px;
+    opacity: 0.7;
 }
 
 .hamburger div {
     width: 30px;
     height: 2px;
     margin: 6px 0;
-    background: #1e1e1e;
+    background: #FFa900;
     border-radius: 20px;
+}
+
+/* BODY */
+
+
+.main-pic {
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.75;
+    flex-direction: column;
+    max-width: 1000px;
+    border-top: 1px solid #e1e1e1;
+    padding: 15px 50px 15px 50px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -81,15 +118,16 @@ nav ul li a:active {
         padding: 0 20px;
     }
     nav {
-        position: absolute;
+        position: fixed;
         left: -300px;
         top: 0;
         z-index: 999;
         width: 280px;
         height: 100vh;
-        background-color: #098AEB;
+        background-color: #1364A1;
         transition: 0.2s;
         box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+        border-radius: 0 10px 10px 0;
     }
     #nav_check:checked ~ nav {
         left: 0;
@@ -117,34 +155,20 @@ nav ul li a:active {
     .hamburger {
         display: block;
     }
+
+    .cv-text {
+        margin-inline: 100px;
+    }
 }
 
-/* BODY */
+@media only screen and (max-width: 575px) {
+    header {
+        width: 90%;
+        padding: 0 10px;
+    }
 
 
-.main-pic {
-    width: auto;
-    height: 200px;
-    border-radius: 50%;
-    margin-top: 80px;
+    .cv-text {
+        margin-inline: 10px;
+    }
 }
-
-.profile {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 15px;
-}
-
-.cv-text {
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.75;
-    flex-direction: column;
-    margin: 0 400px;
-    border-top: 1px solid #e1e1e1;
-    padding-top: 15px;
-}
-
