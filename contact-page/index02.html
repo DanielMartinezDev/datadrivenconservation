@@ -3,18 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Carlos' Contact Page</title>
   <link rel="stylesheet" href="styles02.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header-main">
-    <img src="/resources/Final-Main-Logo.svg" class="main-logo"/>
-    <p class="main-title">Contact</p>
-    <img src="/resources/HamburgerMenu.svg" id="hamburger-button">
+  <header>   
+    <div class="logo">
+      <img src="/resources/Final-Main-Logo.svg"/>
+    </div>
+    <input type="checkbox" id="nav_check" hidden>
+    <nav>
+      <div class="logo">
+        <img src="/resources/Final-Main-Logo.svg"/>
+      </div>
+      <ul>
+        <li>
+          <a href="/Index.html">Home</a>
+        </li>
+        <li>
+          <a href="">Publications</a>
+        </li>
+        <li>
+          <a href="">Projects</a>
+        </li>
+        <li>
+          <a href="">People</a>
+        </li>
+        <li>
+          <a href="">About Me</a>
+        </li>
+        <li>
+          <a href="/contact-page/index02.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <label for="nav_check" class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+    
   </header>
+
+  <p class="main-title">Contact</p>
   <div class="border">
     <div class="sub-div">
       <img src="/resources/logos_google-gmail.svg"/>
