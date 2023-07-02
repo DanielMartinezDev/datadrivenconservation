@@ -1,0 +1,68 @@
+body {
+    background: #1E1E1E;
+    color: #fff;
+    font-family: 'Love Ya Like A Sister', 'Space Mono', sans-serif;
+    margin-top: 25px;
+}
+
+/* BODY */
+
+.main-title {
+  font-size: 80px;
+  text-align: center;
+  margin: 40px 0 10px 0;
+}
+
+.main-pic {
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  line-height: 40px;
+}
+
+.profile h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.profile h3 {
+    padding-top: 0;
+    margin: 0;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cv-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.75;
+  flex-direction: column;
+  max-width: 1000px;
+  border-top: 1px solid #e1e1e1;
+  padding: 15px 50px 15px 50px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .cv-text {
+      margin-inline: 100px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .cv-text {
+      margin-inline: 10px;
+  }
+}
