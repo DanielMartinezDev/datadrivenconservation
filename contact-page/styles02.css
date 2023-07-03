@@ -107,7 +107,6 @@ nav ul li a:active {
 }
 
 .link {
-  color: #fff;
   text-decoration: none;
   font-size: 20px;
 }
@@ -116,6 +115,13 @@ nav ul li a:active {
   width: 90%;
   text-align: center;
   padding-inline: 50px;
+  color: #ff9a00;
+  transition: opacity 0.2s;
+}
+
+.link-text:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .sub-div {
