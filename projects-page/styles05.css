@@ -11,7 +11,7 @@ body {
     margin: 40px 0;
   }
 
-  .projects-container {
+.projects-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,7 +20,7 @@ body {
     padding: 40px; 
   }
 
-  .projects-container#blur {
+.projects-container#blur {
     transition: filter 0.25s;
   }
 
@@ -93,6 +93,14 @@ body {
 #popup03 a {
     text-decoration: none;
     color: #ff9a00;
+    transition: opacity 0.2s;
+}
+
+#popup a:hover,
+#popup02 a:hover,
+#popup03 a:hover {
+    opacity: 0.75;
+    cursor: pointer;
 }
 
 #popup,
@@ -148,53 +156,88 @@ body {
     #popup,
     #popup02,
     #popup03 {
-        padding-inline: 15px;
         background-position: center;
-        height: auto;
-        width: 90%;
-        overflow-y: auto;
+        height: 80%;
+        width: 75%;
+        overflow-y: hidden;
+        padding: 0 15px;
     }
 
     #popup a,
     #popup02 a,
     #popup03 a {
-        margin: 10px 0;
+      margin: 0;
+      padding: 0;
     }
+
+   #popup #close,
+   #popup02 #close,
+   #popup03 #close {
+        margin: 15px 0;
+  }
 
     #popup h3,
     #popup02 h3,
     #popup03 h3 {
-        line-height: 1.75;
-        width: 90%;
+      line-height: 1.75;
+      padding-top: 20px;
+      width: 90%;
+      overflow-y: auto;
+      margin: 0;
+}
+
+    #popup.active,
+    #popup02.active,
+    #popup03.active {
         overflow-y: auto;
 }
+}
 
-#popup.active,
-#popup02.active,
-#popup03.active {
-    overflow-y: auto;
-}
-}
-   
+
+
 /* Tablet Version */
 
-@media only screen and (max-width: 995px) {
+@media only screen and (min-width: 481px) and (max-width: 1100px) {
+    .project-type {
+        margin-bottom: 40px;
+    }
+
     #popup,
     #popup02,
     #popup03 {
-        padding: 50px 20px;
-        background-position: center;
-        height: fit-content;
-        width: 90%;
-    }
-
-    .project-type {
-        margin-bottom: 40px;
+      background-position: center;
+      max-height: fit-content;
+      max-width: 75%;
+      overflow-y: hidden;
+      padding: 0 15px;
     }
 
     #popup a,
     #popup02 a,
     #popup03 a {
-        margin: 10px 0;
+      margin: 0;
+      padding: 0;
     }
+
+    #popup #close,
+    #popup02 #close,
+    #popup03 #close {
+        margin: 30px;
+  }
+
+    #popup h3,
+    #popup02 h3,
+    #popup03 h3 {
+      line-height: 1.75;
+      width: 90%;
+      padding-top: 50px;
+      overflow-y: auto;
+      margin: 0;
+}
+
+    #popup.active,
+    #popup02.active,
+    #popup03.active {
+        overflow-y: auto;
+}
 }
