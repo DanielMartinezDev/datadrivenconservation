@@ -80,7 +80,7 @@ body {
 #popup06 #close {
     color: #ff9a00;
     text-decoration: none;
-    background: #1364a1;
+    background: #323232;
     padding: 10px 18px;
     border-radius: 20px;
     box-shadow: 0, 5px, 30px, rgba(0, 0, 0, .50);
@@ -97,10 +97,10 @@ body {
 #popup02 #close:hover,
 #popup03 #close:hover,
 #popup04 #close:hover,
-#popup0 #close:hover,
+#popup05 #close:hover,
 #popup06 #close:hover {
     background: #ff9a00;
-    color: #1364a1;
+    color: #323232;
  }
 
 #popup #close:active,
