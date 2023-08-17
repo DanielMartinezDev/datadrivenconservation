@@ -126,15 +126,15 @@ body {
 }
 
 #popup {
-    background-image: url(../resources/ben-o-bro-wpU4veNGnHg-unsplash\ \(1\).jpeg);
+    background-image: url(/resources/ben-o-bro-wpU4veNGnHg-unsplash\ \(1\).jpeg);
 }
 
 #popup02 {
-    background-image: url(../resources/dan-meyers-IQVFVH0ajag-unsplash\ \(1\).jpeg);
+    background-image: url(/resources/dan-meyers-IQVFVH0ajag-unsplash\ \(1\).jpeg);
 }
 
 #popup03 {
-    background-image: url(../resources/sergei-a--heLWtuAN3c-unsplash\ \(1\).jpeg);
+    background-image: url(/resources/sergei-a--heLWtuAN3c-unsplash\ \(1\).jpeg);
 }
 
 #popup.active,
