@@ -1,3 +1,22 @@
+// const text = document.querySelector(".sec-text");
+
+// const textLoad = () => {
+//     setTimeout(() => {
+//         text.textContent = "Scientist"
+//     }, 0);
+//     setTimeout(() => {
+//         text.textContent = "Professor"
+//     }, 2000);
+//     setTimeout(() => {
+//         text.textContent = "Ecologist"
+//     }, 4000);
+//     setTimeout(() => {
+//         text.textContent = "Athlete"
+//     }, 6000);
+// }
+
+// textLoad();
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
