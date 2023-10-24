@@ -1,8 +1,8 @@
 body {
-    background: #1E1E1E;
-    color: #fff;
-    font-family: 'Love Ya Like A Sister', 'Space Mono', sans-serif;
-    margin-top: 25px;
+  background: #1E1E1E;
+  color: #fff;
+  font-family: 'Love Ya Like A Sister', 'Space Mono', sans-serif;
+  margin-top: 25px;
 }
 
 /* BODY */
@@ -32,36 +32,39 @@ body {
 }
 
 .profile .typewrite {
-    position: relative;
-    color: #ff9a00;
-    text-decoration: none;
-  }
-e
-.profile .text.first-text {
-    color: #fff;
+  position: relative;
+  color: #ff9a00;
+  text-decoration: none;
+}
+
+e .profile .text.first-text {
+  color: #fff;
 }
 
 .text.sec-text::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #1e1e1e;
-    border-left: 2px solid #fff;
-    animation: animate 2s steps(12) infinite;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e1e;
+  border-left: 2px solid #fff;
+  animation: animate 2s steps(12) infinite;
 
-    
+
 }
 
-@keyframes animate{
-    40%, 60%{
-        left: 100%;
-    }
-    100%{
-        left: 0;
-    }
+@keyframes animate {
+
+  40%,
+  60% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
 }
 
 .text-container {
@@ -85,12 +88,12 @@ e
 
 @media only screen and (max-width: 1100px) {
   .cv-text {
-      margin-inline: 100px;
+    margin-inline: 100px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .cv-text {
-      margin-inline: 10px;
+    margin-inline: 10px;
   }
 }
