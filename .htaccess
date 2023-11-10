@@ -1,0 +1,6 @@
+<IfModule mod_headers.c>
+    # Set Cache-Control header for specific file types (e.g., HTML, CSS, and JavaScript)
+    <FilesMatch "\.(ico|pdf|svg|webp)$">
+    Header set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+</IfModule>
