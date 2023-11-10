@@ -50,7 +50,7 @@ body {
 }
 
 .cv-link {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ff9a00;
     cursor: pointer;
     transition: all 0.25s;
