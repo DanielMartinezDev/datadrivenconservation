@@ -9,7 +9,7 @@ body {
     font-size: 80px;
     text-align: center;
     margin: 40px 0;
-  }
+}
 
 .projects-container {
     display: flex;
@@ -17,12 +17,12 @@ body {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    padding: 40px; 
-  }
+    padding: 40px;
+}
 
 .projects-container#blur {
     transition: filter 0.25s;
-  }
+}
 
 .projects-container#blur.active {
     filter: blur(20px);
@@ -72,12 +72,12 @@ body {
 #popup02 #close:hover,
 #popup03 #close:hover {
     background-color: #1E1E1E;
- }
+}
 
 #popup #close:active,
 #popup02 #close:active,
 #popup03 #close:active {
-   opacity: 80%;
+    opacity: 80%;
 }
 
 #popup h3,
@@ -85,7 +85,7 @@ body {
 #popup03 h3 {
     text-decoration: none;
     line-height: 2;
-    text-align:unset;
+    text-align: unset;
 }
 
 #popup a,
@@ -126,15 +126,15 @@ body {
 }
 
 #popup {
-    background-image: url(/resources/ben-o-bro-wpU4veNGnHg-unsplash\ \(1\).jpeg);
+    background-image: url(../resources/ben-o-bro-wpU4veNGnHg-unsplash-_1_.webp);
 }
 
 #popup02 {
-    background-image: url(/resources/dan-meyers-IQVFVH0ajag-unsplash\ \(1\).jpeg);
+    background-image: url(../resources/dan-meyers-IQVFVH0ajag-unsplash-_1_.webp);
 }
 
 #popup03 {
-    background-image: url(/resources/sergei-a--heLWtuAN3c-unsplash\ \(1\).jpeg);
+    background-image: url(../resources/sergei-a-heLWtuAN3c-unsplash-_1_.webp);
 }
 
 #popup.active,
@@ -166,31 +166,31 @@ body {
     #popup a,
     #popup02 a,
     #popup03 a {
-      margin: 0;
-      padding: 0;
+        margin: 0;
+        padding: 0;
     }
 
-   #popup #close,
-   #popup02 #close,
-   #popup03 #close {
+    #popup #close,
+    #popup02 #close,
+    #popup03 #close {
         margin: 15px 0;
-  }
+    }
 
     #popup h3,
     #popup02 h3,
     #popup03 h3 {
-      line-height: 1.75;
-      padding-top: 20px;
-      width: 90%;
-      overflow-y: auto;
-      margin: 0;
-}
+        line-height: 1.75;
+        padding-top: 20px;
+        width: 90%;
+        overflow-y: auto;
+        margin: 0;
+    }
 
     #popup.active,
     #popup02.active,
     #popup03.active {
         overflow-y: auto;
-}
+    }
 }
 
 
@@ -205,39 +205,39 @@ body {
     #popup,
     #popup02,
     #popup03 {
-      background-position: center;
-      max-height: fit-content;
-      max-width: 75%;
-      overflow-y: hidden;
-      padding: 0 15px;
+        background-position: center;
+        max-height: fit-content;
+        max-width: 75%;
+        overflow-y: hidden;
+        padding: 0 15px;
     }
 
     #popup a,
     #popup02 a,
     #popup03 a {
-      margin: 0;
-      padding: 0;
+        margin: 0;
+        padding: 0;
     }
 
     #popup #close,
     #popup02 #close,
     #popup03 #close {
         margin: 30px;
-  }
+    }
 
     #popup h3,
     #popup02 h3,
     #popup03 h3 {
-      line-height: 1.75;
-      width: 90%;
-      padding-top: 50px;
-      overflow-y: auto;
-      margin: 0;
-}
+        line-height: 1.75;
+        width: 90%;
+        padding-top: 50px;
+        overflow-y: auto;
+        margin: 0;
+    }
 
     #popup.active,
     #popup02.active,
     #popup03.active {
         overflow-y: auto;
-}
+    }
 }

@@ -48,15 +48,15 @@ nav ul li a {
 
 nav ul li a:hover {
   background: #1E1E1E;
-} 
+}
 
 nav ul li a:active {
   background: #1E1E1E;
   opacity: 70%;
-} 
+}
 
 .hamburger {
-  display: none;  
+  display: none;
   height: fit-content;
   cursor: pointer;
   padding: 3px 8px;
@@ -79,53 +79,56 @@ nav ul li a:active {
 
 @media only screen and (max-width: 1140px) {
   header {
-      width: 90%;
-      padding: 0 20px;
+    width: 90%;
+    padding: 0 20px;
   }
+
   nav {
-      position: fixed;
-      left: -300px;
-      top: 0;
-      z-index: 999;
-      width: 280px;
-      height: 100vh;
-      background-color: #323232;
-      transition: 0.2s;
-      box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
-      border-radius: 0 10px 10px 0;
-      padding-top: 20px;
+    position: fixed;
+    left: -300px;
+    top: 0;
+    z-index: 999;
+    width: 280px;
+    height: 100vh;
+    background-color: #323232;
+    transition: 0.2s;
+    box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 0 10px 10px 0;
+    padding-top: 20px;
   }
-  #nav_check:checked ~ nav {
-      left: 0;
+
+  #nav_check:checked~nav {
+    left: 0;
   }
+
   nav .logo {
-      display: block;
-      height: 70px;
-      display: flex;
-      align-items: center;
-      margin-left: 30px;
+    display: block;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
   }
 
   nav ul li a {
-      margin-bottom: 5px;
-      padding: 10px 15px;
-      border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
   }
 
   nav ul {
-      display: block;
-      padding: 0 20px;
-      margin-top: 30px;
+    display: block;
+    padding: 0 20px;
+    margin-top: 30px;
   }
 
   .hamburger {
-      display: block;
+    display: block;
   }
 }
 
 @media only screen and (max-width: 575px) {
   header {
-      width: 90%;
-      padding: 0 10px;
+    width: 90%;
+    padding: 0 10px;
   }
 }
