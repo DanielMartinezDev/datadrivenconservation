@@ -1,0 +1,80 @@
+/* General Styles */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #006838;
+}
+
+/* Filter Section */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px auto;
+  padding: 10px 0;
+}
+
+#search-bar {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#year-filter {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Publications List */
+#publications-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.publication-year {
+  margin-bottom: 20px;
+}
+
+.publication-year h2 {
+  color: #006838;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.publication-year ul {
+  list-style: none;
+  padding: 0;
+}
+
+.publication-year li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.publication-year li p {
+  margin: 0;
+  flex: 1;
+}
+
+.view-pdf {
+  background-color: #006838;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-pdf:hover {
+  background-color: #004d2d;
+}
