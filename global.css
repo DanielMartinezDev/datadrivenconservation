@@ -1,0 +1,39 @@
+html {
+  background: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark grey text */
+  font-family: 'Calibri', 'Roboto', 'Space Mono', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  background-color: #f4f4f4; /* Light background */
+  color: #333; /* Text color */
+}
+
+a {
+  color: #004080; /* Dark blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005b99; /* Darker blue on hover */
+}
+
+.main-title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 40px 0;
+  color: #333; /* Dark title */
+}
+
+/* Links inside sub-divs */
+.link-text {
+  color: #333;
+  transition: color 0.2s;
+}
+
+.link-text:hover {
+  color: #005b99; /* Darker blue hover */
+}
